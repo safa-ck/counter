@@ -1,0 +1,67 @@
+@font-face {
+  font-family: poppins;
+  src: url(fonts/Poppins.ttf);
+}
+
+@font-face{
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src:url(fonts/fa-regular-400.woff2) format("woff2"),url(.fonts/fa-regular-400.ttf) format("truetype");
+}
+
+.far{
+  font-family: "Font Awesome 6 Free";
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;	
+  -webkit-font-smoothing: antialiased;	
+  display: var(--fa-display,inline-block);	
+  font-style: normal;	
+  font-variant: normal;	
+  line-height: 1;	
+  text-rendering: auto;
+}
+.fa-caret-square-up:before,.fa-square-caret-up:before{content:"\f151"}
+.fa-caret-square-down:before,.fa-square-caret-down:before{content:"\f150"}
+
+html,body {
+  font-family: poppins;
+  font-weight: 600;
+  margin:0;
+  padding:0;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  background: linear-gradient(#1b0668, #44b3df);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter {
+  height: 550px;
+  width: 414px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 119px 126px rgba(0, 0, 0, 0.61);
+  border-radius: 30px;
+}
+
+.counter strong {
+  font-size: 150px;
+  color: #1b0668;
+}
+
+.counter i {
+  cursor: pointer;
+  font-size: 64px;
+}
+
+.counter i:hover {
+  color: #44b3df;
+}
+
+.counter i:active {
+  color: #1b0668;
+}
